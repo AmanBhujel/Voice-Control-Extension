@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Last",
+    "description": "Speech To Text",
+    "version": "1.0",
+    "permissions": [
+      "tabs"
+    ],
+    "action": {
+      "default_popup": "index.html"
+    }
+ 
+  }
+  
