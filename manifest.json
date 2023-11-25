@@ -4,11 +4,17 @@
     "description": "Speech To Text",
     "version": "1.0",
     "permissions": [
-      "tabs"
-    ],
+      "activeTab",
+      "storage",
+      "tabs",
+      "tabCapture"
+          ],
     "action": {
       "default_popup": "index.html"
+    },
+    "background":{
+      "service_worker":"background.js"
     }
- 
+    
   }
   
